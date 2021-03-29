@@ -1,0 +1,406 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+   
+}
+
+body {
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul {
+   list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.navbar {
+    -webkit-box-shadow: 0px 6px 14px 0px rgba(160,160,160,0.59); 
+    box-shadow: 0px 6px 14px 0px rgba(160,160,160,0.59);
+    padding: 20px 0 20px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    margin-left: 350px;
+}
+
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.tel-number {
+    color: white;
+    background: #00BAFC;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.main-page .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-box {
+    padding: 200px 0;
+}
+
+.main-title {
+    font-size: 40px;
+}
+
+.main-text {
+    padding: 20px 0 35px 0;
+    font-size: 21px;
+}
+
+.main-link {
+    font-size: 21px;
+    color: white;
+    background: #00BAFC;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+iframe {
+    width: 458px; 
+    height: 258px;
+    border-radius: 5px;
+}
+
+.section-top .container {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+
+.top {
+    text-align: center;
+}
+
+.top-title {
+    font-size: 30px;
+}
+
+.top-text {
+    text-align: center;
+    font-size: 21px;
+    padding: 35px 0;
+}
+
+.top-list {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+   }
+
+.top-item {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+    margin-top: 50px;
+    -webkit-box-shadow: 0px 6px 14px 0px rgba(160,160,160,0.59); 
+box-shadow: 0px 6px 14px 0px rgba(160,160,160,0.59);
+}
+
+
+.top-image {
+}  
+
+.item-title {
+    padding: 15px 0 10px 0;
+}
+
+
+.next-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0 70px;
+}
+
+.top-button {
+    font-size: 21px;
+    color: white;
+    background: #00BAFC;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.top-link {
+    color:  #00BAFC;
+    font-size: 21px;
+    padding: 0 15px;
+    text-decoration: underline;
+}
+
+
+.bottom {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.bottom-title {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.bottom-text {
+    font-size: 18px;
+}
+
+.bottom-image {
+    width: 400px;
+    height: auto;
+}
+
+.bottom-list  {
+    display: flex;
+    justify-content: space-between;
+   flex-direction: column;
+}
+
+.bottom-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 60px 0;
+}
+
+
+.contact-text {
+    text-align: center;
+    padding: 30px 0;
+    width: auto;
+    font-size: 18px;
+    color: white;
+}
+
+.contact-section  {
+    background: #00BAFC;
+    padding-bottom: 40px;
+    }
+
+.contact-box {
+   display: flex;
+   justify-content: center;
+   background-color: white;
+   width: 30%;
+   margin: 0 auto;
+   border-radius: 5px;
+   padding: 15px 0;
+  }
+
+
+.form-box {
+   
+    }
+
+input[type=text], select {
+    width: 100%;
+    padding: 17px;
+    margin: 8px 0;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: #F3F3F3;;
+}
+  
+
+
+
+.get-beta {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 300px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background: #00BAFC;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+footer {
+    background: #191919;
+    color: white;
+}
+
+.footer-box {
+    margin-right: 170px;
+    }
+
+.footer-list {
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+.footer-list-in {
+
+}
+
+.footer-title {
+    padding-bottom: 10px;
+}
+
+.footer-item-in {
+    padding: 5px 0;
+}
+
+
+.footer-item {
+    padding: 50px 0;
+}
+
+.footer-link {
+    color: white;
+}
+
+.social-link {
+    color: white;
+}
+
+.fab {
+    padding: 8px 10px;
+    font-size: 25px;
+   
+}
+
+
+.
+@media(max-width: 1160px){
+    .container{
+        width: 1060px;
+    }
+}
+
+@media(max-width: 1060px){
+    .container{
+        width: 920px;
+    }
+}
+
+@media(max-width: 960px){
+    .container{
+        width: 820px;
+    }
+    .nav {
+        display: block;
+    }
+    .nav-list {
+        display: none;
+    }
+
+    
+    .nav-item {
+        width: 50%;
+    }
+}
+
+@media(max-width: 860px){
+    .container{
+        width: 720px;
+    }
+    .nav-item{
+        width: 40%;
+    }
+
+    iframe {
+        width: 80%;
+    }
+    header {
+        display: block;
+    }
+}
+
+@media(max-width: 760px){
+    .container{
+        width: 620px;
+    }
+    .header-section{
+        flex-direction: column;
+    }
+    .bottom-list {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .main-page .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.contact-box {
+    width: 360px;
+}
+
+
+@media(max-width: 660px){
+    .container{
+        width: 520px;
+    }
+}
+
+@media(max-width: 520px){
+    .container{
+        width: 90%;
+    }
+    .bottom-image {
+        display: none;
+    }
+
+    .top-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-page .container {
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .footer-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
